@@ -1,0 +1,26 @@
+{
+    "name": "kcsoft/debug-kit-error-log",
+    "description": "CakePhp DebugKit error log panel",
+    "license": "MIT",
+    "type": "cakephp-plugin",
+    "keywords": [
+        "cakephp", "debugkit", "error", "log", "panel"
+    ],
+    "authors": [
+        {
+            "name": "kcsoft",
+            "role": "Author"
+        }
+    ],
+    "require": {
+        "cakephp/cakephp": "~3.4",
+        "cakephp/debug_kit": "~3.2"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "DebugKitErrorLog\\": "src"
+        }
+    }
+}
