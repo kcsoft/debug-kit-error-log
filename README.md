@@ -9,11 +9,11 @@ Use the dependancy mananger [composer] to install
 composer require kcsoft/debug-kit-error-log
 ```
 
-In your `bootstrap.php` file add the panel to [DebugKit 4]:
+In your `src/Application.php` file add the panel to [DebugKit] v4:
 
 ```php
-Configure::write('DebugKit.panels', ['DebugKitErrorLog.ErrorLog']);
-Plugin::load('DebugKit', ['bootstrap' => true]);
+    Configure::write('DebugKit.panels', ['DebugKitErrorLog.ErrorLog']);
+    $this->addPlugin('DebugKit', ['bootstrap' => true]);
 ```
 
 ## License

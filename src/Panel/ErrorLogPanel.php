@@ -25,7 +25,7 @@ class ErrorLogPanel extends DebugPanel
     public function data()
     {
         $this->logger = new ErrorLog();
-        $errorLogConfig = Log::config('error');
+        $errorLogConfig = Log::getConfig('error');
         // 'className' => 'FileLog' // TODO: check engine?
         $logFilename = $errorLogConfig['path'] . $errorLogConfig['file'] . '.log';
 
