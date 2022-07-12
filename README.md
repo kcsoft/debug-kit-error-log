@@ -1,6 +1,6 @@
 # DebugKitErrorLog
 
-Show errors from `error.log` file in a DebugKit panel.
+Show errors from `error.log` file in a DebugKit panel fro CakePHP 4.
 
 ## Installation
 Use the dependancy mananger [composer] to install
@@ -9,7 +9,7 @@ Use the dependancy mananger [composer] to install
 composer require kcsoft/debug-kit-error-log
 ```
 
-In your `bootstrap.php` file add the panel to [DebugKit] 3:
+In your `bootstrap.php` file add the panel to [DebugKit 4]:
 
 ```php
 Configure::write('DebugKit.panels', ['DebugKitErrorLog.ErrorLog']);
